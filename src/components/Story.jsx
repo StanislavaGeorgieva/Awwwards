@@ -86,7 +86,7 @@ const Story = () => {
 
                         <Button
                             id="realm-btn"
-                            title="discover prologue"
+                            title="Coming soon"
                             containerClass="mt-5 bg-blue-50"
                         />
                     </div>

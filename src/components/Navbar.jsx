@@ -6,7 +6,7 @@ import { useState } from 'react';
 import { useWindowScroll } from 'react-use';
 import gsap from 'gsap';
 
-const navItems = ['Nexus', 'Vault',  'Prologue','About', 'Contact']
+const navItems = ['About','Features','Contact']
 
 const Navbar = () => {
 
@@ -63,12 +63,13 @@ useEffect(() => {
 
         <div className='flex items-center gap-7'>
             <img src="/img/logo.png" alt="logo" className='w-10'/>
-            <Button
+            {/* <Button
             id='product-button'
+            href='#hero'
             title='Products'
             rightIcon={<TiLocationArrow/>}
             containerClass='bg-blue-50 md:flex hidden items-center justify-center gap-1'
-            />
+            /> */}
         </div>
 
         <div className='flex h-full items-center'>
